@@ -16,3 +16,6 @@ proc-macro = true
 [dependencies]
 quote = "0.5.2"
 syn = { version = "0.13.1", features = ["full", "extra-traits"] }
+
+[dev-dependencies]
+rayon = "1.0"
