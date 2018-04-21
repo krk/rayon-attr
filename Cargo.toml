@@ -1,0 +1,18 @@
+[package]
+name = "rayon-attr"
+version = "0.1.0"
+authors = ["krk <keremkat@gmail.com>"]
+description = "Provides macro attributes that translate existing code to be parallel using rayon."
+repository = "https://github.com/krk/rayon-attr"
+readme = "README.md"
+keywords = ["rayon", "parallel", "stmt_expr_attributes", "proc_macro_attribute", "thread"]
+categories = ["concurrency"]
+license = "Apache-2.0/MIT"
+
+[lib]
+name = "rayon_attr"
+proc-macro = true
+
+[dependencies]
+quote = "0.5.2"
+syn = { version = "0.13.1", features = ["full", "extra-traits"] }
