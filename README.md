@@ -1,2 +1,8 @@
 # rayon-attr
-Rayon-attr: An attribute macro library for a data parallelism library for Rust
+rayon-attr: An attribute macro library for a data parallelism library for Rust.
+
+[![Build Status](https://travis-ci.org/krk/rayon-attr.svg?branch=master)](https://travis-ci.org/krk/rayon-attr)
+
+# usage
+
+See [for_loop](test/for_loop.rs) function.

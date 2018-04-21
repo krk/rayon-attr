@@ -9,6 +9,9 @@ keywords = ["rayon", "parallel", "stmt_expr_attributes", "proc_macro_attribute",
 categories = ["concurrency"]
 license = "Apache-2.0/MIT"
 
+[badges]
+travis-ci = { repository = "krk/rayon-attr" }
+
 [lib]
 name = "rayon_attr"
 proc-macro = true
