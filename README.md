@@ -5,4 +5,4 @@ rayon-attr: An attribute macro library for a data parallelism library for Rust.
 
 # usage
 
-See [for_loop](test/for_loop.rs) function.
+See [for_loop](tests/for_loop.rs) function.
